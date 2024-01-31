@@ -7,7 +7,19 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Components\" />
+    <Content Remove="Components\Titles\Titles.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Components\Titles\Titles.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Components\Titles\Titles.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Components\Titles\Titles.razor" />
   </ItemGroup>
 
 </Project>
